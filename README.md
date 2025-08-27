@@ -43,7 +43,7 @@ on Linux. If the return value is greater than zero, the processor should be able
 
 ### Install Docker
 If your hosting platform supports a graphical user interface (GUI), you may refer to [Install Docker Desktop on Linux](https://docs.docker.com/desktop/install/linux/) or [Install Docker Desktop on Windows](https://docs.docker.com/desktop/install/windows-install/) based on your OS. Otherwise, you may [Install Docker Engine](https://docs.docker.com/engine/install/).
-We provide the docker container implemented with our latest server(`desktop_env/server/main.py`) in [this link](). Please apply it to the "path_to_vm".
+We provide the docker container implemented with our latest server(`desktop_env/server/main.py`) in [this link](https://drive.google.com/file/d/1dOT4Kb4vceIr3A7d4kQY6wRreY55OQ0B/view?usp=sharing). Please apply it to the "path_to_vm".
 
 ### OpenAI key configuration
 Fill your OpenAI API key in the `OAI_CONFIG_LIST`, which is for driving the AG2 agents. You can find a template in `./OAI_CONFIG_LIST`. You also need to export your OpenAI API key as your environment variable for driving the `computer-use-preview` model.
